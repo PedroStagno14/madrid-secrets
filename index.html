@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madrid Secrets — Verborgen Rooftops & Hidden Gems</title>
+  <meta name="description" content="De meest exclusieve gids voor verborgen rooftops en geheime plekken in Madrid. Ontdek wat locals zorgvuldig bewaken.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Scroll progress -->
+<div id="progress-bar"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav__container">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-mark">MS</span>
+      <span class="nav__logo-text">Madrid Secrets</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#locations">Locaties</a></li>
+      <li><a href="#gallery">Galerij</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact" class="nav__cta">Contact</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Menu openen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#locations"    class="mobile-link">Locaties</a></li>
+    <li><a href="#gallery"      class="mobile-link">Galerij</a></li>
+    <li><a href="#testimonials" class="mobile-link">Reviews</a></li>
+    <li><a href="#faq"          class="mobile-link">FAQ</a></li>
+    <li><a href="#contact"      class="mobile-link">Contact</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__bg">
+    <img class="hero__img"
+         src="https://images.unsplash.com/photo-1543783207-ec64e4d3b900?w=1920&q=85"
+         alt="Madrid Gran Vía bij nacht">
+    <div class="hero__overlay"></div>
+  </div>
+  <div class="hero__content">
+    <span class="hero__eyebrow reveal">Madrid's Best Kept Secrets</span>
+    <h1 class="hero__title reveal">
+      <span>Verborgen</span>
+      <em>Rooftops</em>
+      <span>&amp; Hidden Gems</span>
+    </h1>
+    <p class="hero__subtitle reveal">
+      De plekken die Madrid's locals zorgvuldig bewaken. Geen toeristische traps — alleen pure magie boven de daken van de stad.
+    </p>
+    <div class="hero__actions reveal">
+      <a href="#locations" class="btn btn--primary">Ontdek de plekken</a>
+      <a href="#about"     class="btn btn--ghost">Ons verhaal</a>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <span>Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+  <div class="hero__stats">
+    <div class="hero__stat">
+      <span class="hero__stat-number">6</span>
+      <span class="hero__stat-label">Geheime locaties</span>
+    </div>
+    <div class="hero__stat">
+      <span class="hero__stat-number">4.8</span>
+      <span class="hero__stat-label">Gem. rating</span>
+    </div>
+    <div class="hero__stat">
+      <span class="hero__stat-number">100%</span>
+      <span class="hero__stat-label">Local approved</span>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="intro" id="about">
+  <div class="container">
+    <div class="intro__grid">
+      <div class="intro__text reveal">
+        <span class="label">Ons verhaal</span>
+        <h2>Madrid heeft twee gezichten.<br>Dit is het mooiste.</h2>
+        <p>Terwijl toeristen de Plaza Mayor overspoelen, sluipen locals naar plekken die je niet vindt in reistijdschriften. Terrasvloeren verscholen tussen boomkruinen. Cocktailbars achter marktkraampjes. Botanische tuinen boven winkels.</p>
+        <p>Wij kennen ze allemaal. En nu jij ook.</p>
+        <a href="#locations" class="btn btn--ghost" style="margin-top:1.5rem">Bekijk de collectie →</a>
+      </div>
+      <div class="intro__visual reveal">
+        <div class="intro__img-wrap">
+          <img src="https://images.unsplash.com/photo-1559827290-e7c7ea3dc43e?w=800&q=80"
+               alt="Rooftop uitzicht Madrid" loading="lazy">
+        </div>
+        <div class="intro__badge">
+          <svg viewBox="0 0 100 100" class="intro__badge-circle" xmlns="http://www.w3.org/2000/svg">
+            <path id="circ" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" fill="none"/>
+            <text font-size="11" letter-spacing="2.2" font-family="Space Grotesk, sans-serif">
+              <textPath href="#circ">LOCAL INSIDER • MADRID SECRETS •</textPath>
+            </text>
+          </svg>
+          <span class="intro__badge-icon">✦</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATIONS -->
+<section class="locations" id="locations">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">De collectie</span>
+      <h2>6 Plekken die je zult onthouden</h2>
+      <p>Elk met zijn eigen ziel, karakter en magie. Klik op een kaart voor de volledige gids.</p>
+    </div>
+    <div class="locations__grid">
+
+      <!-- 01 Salvador Bachiller -->
+      <a href="locations/salvador-bachiller.html" class="location-card reveal">
+        <div class="location-card__img">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=80"
+               alt="Garden of Salvador Bachiller" loading="lazy">
+          <div class="location-card__img-overlay"></div>
+        </div>
+        <div class="location-card__tag">Botanisch</div>
+        <div class="location-card__content">
+          <div class="location-card__meta">
+            <span class="location-card__number">01</span>
+            <span class="location-card__rating">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.2
+            </span>
+          </div>
+          <h3>Garden of Salvador Bachiller</h3>
+          <p>Een botanisch paradijs verborgen op de derde verdieping van een winkel. Jungle-vibes midden in het centrum.</p>
+          <div class="location-card__footer">
+            <span class="location-card__address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Calle Montera 37, Planta 3
+            </span>
+            <span class="location-card__price">€€</span>
+          </div>
+        </div>
+        <div class="location-card__arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 02 San Antón -->
+      <a href="locations/san-anton.html" class="location-card reveal">
+        <div class="location-card__img">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=80"
+               alt="Mercado San Antón" loading="lazy">
+          <div class="location-card__img-overlay"></div>
+        </div>
+        <div class="location-card__tag">Terras</div>
+        <div class="location-card__content">
+          <div class="location-card__meta">
+            <span class="location-card__number">02</span>
+            <span class="location-card__rating">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.3
+            </span>
+          </div>
+          <h3>11 Nudos — Mercado San Antón</h3>
+          <p>360 m² rooftopterras bovenop de iconische markt van Chueca. Cocktails, tapas en het echte Madrid-gevoel.</p>
+          <div class="location-card__footer">
+            <span class="location-card__address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Augusto Figueroa 24, Chueca
+            </span>
+            <span class="location-card__price">€€</span>
+          </div>
+        </div>
+        <div class="location-card__arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 03 The Hat -->
+      <a href="locations/the-hat.html" class="location-card reveal">
+        <div class="location-card__img">
+          <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=700&q=80"
+               alt="The Hat Rooftop" loading="lazy">
+          <div class="location-card__img-overlay"></div>
+        </div>
+        <div class="location-card__tag">Rooftop Bar</div>
+        <div class="location-card__content">
+          <div class="location-card__meta">
+            <span class="location-card__number">03</span>
+            <span class="location-card__rating">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.7
+            </span>
+          </div>
+          <h3>Terraza The Hat Rooftop</h3>
+          <p>Vlak achter Plaza Mayor. Bohemian sfeer, goede cocktails en uitzicht op Madrid's oude stadssilhouet.</p>
+          <div class="location-card__footer">
+            <span class="location-card__address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Calle Imperial 9, Ático
+            </span>
+            <span class="location-card__price">€€</span>
+          </div>
+        </div>
+        <div class="location-card__arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 04 Ella Sky Bar -->
+      <a href="locations/ella-skybar.html" class="location-card reveal">
+        <div class="location-card__img">
+          <img src="https://images.unsplash.com/photo-1596453482447-2c1ac89e64c3?w=700&q=80"
+               alt="Ella Sky Bar" loading="lazy">
+          <div class="location-card__img-overlay"></div>
+        </div>
+        <div class="location-card__tag">Sky Bar</div>
+        <div class="location-card__content">
+          <div class="location-card__meta">
+            <span class="location-card__number">04</span>
+            <span class="location-card__rating">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.1
+            </span>
+          </div>
+          <h3>Ella Sky Bar Madrid</h3>
+          <p>10e verdieping van Gran Vía 42. Tegelijk uitzicht op Palacio Real én Cuatro Torres. Een open geheim.</p>
+          <div class="location-card__footer">
+            <span class="location-card__address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Gran Vía 42, Planta 10
+            </span>
+            <span class="location-card__price">€€€</span>
+          </div>
+        </div>
+        <div class="location-card__arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 05 Generator Madrid -->
+      <a href="locations/generator-madrid.html" class="location-card reveal">
+        <div class="location-card__img">
+          <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=700&q=80"
+               alt="Generator Madrid" loading="lazy">
+          <div class="location-card__img-overlay"></div>
+        </div>
+        <div class="location-card__tag">Urban Beach</div>
+        <div class="location-card__content">
+          <div class="location-card__meta">
+            <span class="location-card__number">05</span>
+            <span class="location-card__rating">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.4
+            </span>
+          </div>
+          <h3>Generator Madrid Rooftop</h3>
+          <p>Urban beach op de 5e verdieping met jacuzzi's. Weinig bezoekers, maximale relaxte sfeer en betaalbare cocktails.</p>
+          <div class="location-card__footer">
+            <span class="location-card__address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Calle San Bernardo 2, Planta 5
+            </span>
+            <span class="location-card__price">€</span>
+          </div>
+        </div>
+        <div class="location-card__arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <!-- 06 El Pabellón -->
+      <a href="locations/el-pabellon.html" class="location-card reveal" style="border-color: var(--border);">
+        <div class="location-card__img">
+          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=700&q=80"
+               alt="El Pabellón Florida Park" loading="lazy">
+          <div class="location-card__img-overlay"></div>
+        </div>
+        <div class="location-card__tag">Magisch ✦</div>
+        <div class="location-card__content">
+          <div class="location-card__meta">
+            <span class="location-card__number">06</span>
+            <span class="location-card__rating">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.8
+            </span>
+          </div>
+          <h3>El Pabellón — Florida Park</h3>
+          <p>Verscholen tussen boomkruinen van het Retiro. Vroeger een legendarische nachtclub. Nu het meest magische hoekje van Madrid.</p>
+          <div class="location-card__footer">
+            <span class="location-card__address">
+    2         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Pº República de Panamá 1, Retiro
+            </span>
+            <span class="location-card__price">€€</span>
+          </div>
+        </div>
+        <div class="location-card__arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">De sfeer</span>
+      <h2>Een kijkje achter de schermen</h2>
+      <p>Klik op een foto om te vergroten.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="gallery__grid">
+      <div class="gallery__item reveal" style="--delay:.0s">
+        <img src="https://images.unsplash.com/photo-1543783207-ec64e4d3b900?w=900&q=80" alt="Madrid Gran Vía" loading="lazy">
+      </div>
+      <div class="gallery__item reveal" style="--delay:.08s">
+        <img src="https://images.unsplash.com/photo-1560969184-10fe8719e047?w=700&q=80" alt="Rooftop stad" loading="lazy">
+      </div>
+      <div class="gallery__item reveal" style="--delay:.16s">
+        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=700&q=80" alt="Garden cocktailbar" loading="lazy">
+      </div>
+      <div class="gallery__item reveal" style="--delay:.24s">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80" alt="Diner rooftop" loading="lazy">
+      </div>
+      <div class="gallery__item reveal" style="--delay:.32s">
+        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=700&q=80" alt="Zonsondergang terras" loading="lazy">
+      </div>
+      <div class="gallery__item reveal" style="--delay:.40s">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&q=80" alt="Tapas Madrid" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Wat anderen zeggen</span>
+      <h2>Ervaringen van locals &amp; reizigers</h2>
+    </div>
+    <div class="testimonials__outer">
+      <div class="testimonials__track" id="testimonialsTrack">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">El Pabellón is letterlijk een andere wereld. Je bent midden in het Retiro-bos, hoort vogels, ziet de historische koepel... en dan serveren ze je de beste gin-tonic van Madrid.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SL</div>
+            <div>
+              <strong>Sophie L.</strong>
+              <span>Brussel → Madrid, 2 weken</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">De rooftop van Salvador Bachiller is echt een geheim. Op een zaterdagmiddag hadden wij de jungle bijna voor onszelf. Ongelooflijk dat zoiets bestaat midden in een drukke winkelstraat.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MV</div>
+            <div>
+              <strong>Marc V.</strong>
+              <span>Gent, terugkerende bezoeker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★☆</div>
+          <p class="testimonial-card__quote">Ella Sky Bar op de 10e verdieping van Gran Vía had ik al 5 keer voorbij gelopen zonder het te weten. De view is werkelijk indrukwekkend — aanrader voor zonsondergang.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RL</div>
+            <div>
+              <strong>Roos L.</strong>
+              <span>Amsterdam, citytrip mei 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">The Hat is de perfecte plek om de avond te beginnen. Relaxte sfeer, betaalbare cocktails en het uitzicht op de oude daken is onverslaanbaar. Nu mijn vaste spot in Madrid.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JD</div>
+            <div>
+              <strong>Jonas D.</strong>
+              <span>Antwerpen, woont in Madrid</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="testimonials__nav">
+      <button class="testimonials__btn" id="prevBtn" aria-label="Vorige">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      </button>
+      <div class="testimonials__dots" id="testimonialDots"></div>
+      <button class="testimonials__btn" id="nextBtn" aria-label="Volgende">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Vragen</span>
+      <h2>Alles wat je wil weten</h2>
+    </div>
+    <div class="faq__list">
+
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Moet ik reserveren voor de rooftops?</span>
+          <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Voor de meeste rooftops is reserveren sterk aan te raden, zeker in de zomer (juni–augustus) en op vrijdag/zaterdag. Ella Sky Bar en The Hat zijn het populairst — reserveer minstens 2–3 dagen op voorhand. El Pabellón en Salvador Bachiller zijn minder druk en walk-in is soms mogelijk.</p>
+        </div>
+      </div>
+
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Wat is het beste seizoen om te gaan?</span>
+          <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Mei, juni, september en oktober zijn absoluut goud. Aangenaam warm (22–28°C), lange avonden en beduidend minder volk dan juli/augustus. In de heetste zomerdagen (38°C+) ga je best pas na 20u naar een rooftop.</p>
+        </div>
+      </div>
+
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Zijn er dresscodes?</span>
+          <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Ella Sky Bar hanteert een smart-casual beleid (geen flip-flops of sportkleding). De overige spots zijn heel relaxt — zomerse kleding is prima. The Hat en Generator zijn zeer informeel.</p>
+        </div>
+      </div>
+
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Zijn de locaties gratis toegankelijk?</span>
+          <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Alle locaties zijn vrij toegankelijk (geen entreeprijs). Je betaalt enkel voor consumptie. Generator Madrid is de meest betaalbare met cocktails vanaf €8. Ella Sky Bar is aan de hogere kant (cocktails €14–18).</p>
+        </div>
+      </div>
+
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Zijn ze ook 's winters open?</span>
+          <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Salvador Bachiller en San Antón zijn het hele jaar open. The Hat, Ella Sky Bar en Generator hebben soms verwarmde winterterrassen. El Pabellón is seizoensgebonden en sluit doorgaans van november tot maart.</p>
+        </div>
+      </div>
+
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Welke rooftop is het beste voor zonsondergang?</span>
+          <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq__answer">
+          <p>Ella Sky Bar en The Hat zijn ideaal voor zonsondergang dankzij het uitzicht naar het westen. Ga er een halfuur voor zonsondergang naartoe — je ziet de gouden lucht én het wordt daarna gezellig verlicht.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact__grid">
+      <div class="contact__info reveal">
+        <span class="label">Neem contact op</span>
+        <h2>Ken jij een geheim dat wij niet kennen?</h2>
+        <p>We zijn altijd op zoek naar nieuwe verborgen plekjes. Deel jouw tip of stel je vraag — we antwoorden binnen 48u.</p>
+        <div class="contact__details">
+          <div class="contact__detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+     0      <span>hola@madridsecrets.com</span>
+          </div>
+          <div class="contact__detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Madrid, España</span>
+          </div>
+          <div class="contact__detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span>@madridsecrets</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact__form reveal" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Naam</label>
+          <input type="text" id="name" placeholder="Jouw naam" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mailadres</label>
+          <input type="email" id="email" placeholder="jij@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Onderwerp</label>
+          <select id="subject">
+            <option value="">— Kies een onderwerp —</option>
+            <option value="tip">Ik heb een geheime tip 🤫</option>
+            <option value="question">Ik heb een vraag</option>
+            <option value="collab">Samenwerking</option>
+            <option value="other">Andere</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Bericht</label>
+          <textarea id="message" rows="4" placeholder="Jouw bericht of tip..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">
+          Verstuur bericht
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <p class="form-success" id="formSuccess">✓ Bericht verstuurd! We nemen snel contact op.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo" style="display:inline-flex">
+          <span class="nav__logo-mark">MS</span>
+          <span class="nav__logo-text">Madrid Secrets</span>
+        </a>
+        <p>De meest exclusieve gids voor verborgen plekken in Madrid. Gemaakt door en voor mensen die de stad écht willen kennen.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Locaties</h4>
+        <ul>
+          <li><a href="locations/salvador-bachiller.html">Salvador Bachiller</a></li>
+          <li><a href="locations/san-anton.html">11 Nudos — San Antón</a></li>
+          <li><a href="locations/the-hat.html">The Hat Rooftop</a></li>
+          <li><a href="locations/ella-skybar.html">Ella Sky Bar</a></li>
+          <li><a href="locations/generator-madrid.html">Generator Madrid</a></li>
+          <li><a href="locations/el-pabellon.html">El Pabellón</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Navigatie</h4>
+        <ul>
+          <li><a href="#locations">Alle locaties</a></li>
+          <li><a href="#gallery">Fotogalerij</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Volg ons</h4>
+        <div class="footer__social-links">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.25 8.25 0 0 0 4.83 1.55V6.8a4.85 4.85 0 0 1-1.07-.11z"/></svg>
+          </a>
+        </div>
+        <p class="footer__tagline">#MadridSecrets</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Madrid Secrets. Gemaakt met ❤️ voor echte Madrid-lovers.</p>
+      <p>Foto's via <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto vergroten">
+  <img class="lightbox__img" id="lightboxImg" src="" alt="Vergroot foto">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Sluiten">✕</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
